@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#logo{
+  color: #000000;
+  text-shadow: 1px 1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px 0px 0 #ffffff, 0px 1px 0 #ffffff, -1px 0px 0 #ffffff, 0px -1px 0 #ffffff;
+}
+
+body{
+  background-color: #7686A6;
+}
+.row{
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+#description{
+  color: #73024B;
+}
+
+.carousel, .carousel img  {
+    height: 500px;
+    margin: auto;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
